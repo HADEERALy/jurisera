@@ -1,0 +1,26 @@
+.card {
+  /* border-radius: 5px; */
+  background: white;
+  margin-bottom: 16px;
+  box-shadow: 0 0 5px rgba(7, 7, 7, 0.61);
+  padding-block: 20px;
+  padding-inline: 11px;
+}
+.title {
+  color: #936957;
+  font-size: 16px;
+  font-family: "Metropolis";
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 16px;
+  color: black;
+  font-family: "Metropolis";
+}
+.apply {
+  color: #936957;
+  font-size: 16px;
+  font-family: "Metropolis";
+  text-decoration: underline;
+  cursor: pointer;
+}

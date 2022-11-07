@@ -1,0 +1,631 @@
+.home-headline {
+  color: #fff;
+  background-color: #936957;
+  font-size: 35px;
+  width: 36%;
+  text-align: center;
+  font-family: "Metropolis";
+  margin-top: 100px;
+}
+.home-headline-description {
+  color: #fff;
+  font-size: 14px;
+  width: 37%;
+  font-family: "Metropolis";
+  margin-top: 30px;
+}
+.Cairo_background {
+  background-size: cover;
+  background-image: url("./../../assets/images/finalCairo.jpg");
+  background-position: center center;
+  height: 520px;
+  min-width: 100%;
+}
+/* .gallery-container {
+  justify-content: flex-end;
+} */
+.animated-home {
+  transform: translateX(0%);
+}
+.te:hover .animated-home {
+  /* background-color: red;
+  animation-name: fadeInLeft;
+  display: block; */
+  transform: translateX(0%);
+  transition: all 1s ease-out;
+}
+.te:not(:hover) .animated-home {
+  transform: translateX(-100%);
+  transition: all 1s ease-out;
+  /* background-color: green;
+  animation: fadeOutLeft 1s; */
+  /* display: none; */
+}
+/* .animated-home:hover {
+  animation-name: fadeInLeft;
+
+  transform: translate(10em, 0);
+  -webkit-transform: translate(10em, 0);
+  -moz-transform: translate(10em, 0);
+  -o-transform: translate(10em, 0);
+  -ms-transform: translate(10em, 0);
+} */
+@keyframes fadeOutLeft {
+  0% {
+    margin-right: 0%;
+    display: block;
+  }
+
+  100% {
+    margin-right: 100%;
+    opacity: 0;
+  }
+}
+#dodo .rec-arrow-right {
+  position: absolute;
+  top: 19%;
+  right: 0;
+  background: white;
+  color: #936957;
+}
+#dodo .rec-arrow-left {
+  position: absolute;
+  top: 19%;
+  right: 7%;
+  background: white;
+  color: #936957;
+}
+#dodo .rec-arrow-right:hover {
+  border: 1px solid #00000029 !important;
+}
+
+#dodo .rec-arrow-left:hover {
+  border: 1px solid #00000029 !important;
+}
+#dodo .rec-arrow-left:focus {
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #936957;
+}
+#dodo .rec-arrow-right:focus {
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #936957;
+}
+#dodo2 .rec-arrow-right {
+  display: none;
+}
+#dodo2 .rec-arrow-left {
+  display: none;
+}
+.classR {
+  position: relative;
+}
+#dodo3 .rec-arrow-right {
+  position: absolute;
+  top: 35%;
+  right: 91.5%;
+  background: white;
+  color: #936957;
+  border-radius: 5px !important;
+}
+#dodo3 .rec-arrow-left {
+  position: absolute;
+  top: 35%;
+  right: 97%;
+  background: white;
+  color: #936957;
+  z-index: 1;
+  border-radius: 5px !important;
+}
+#dodo3 .rec-arrow-right:hover {
+  border: 1px solid #fff !important;
+}
+
+#dodo3 .rec-arrow-left:hover {
+  border: 1px solid #fff !important;
+}
+#dodo3 .rec-arrow-left:focus {
+  background: white;
+  color: #936957;
+}
+#dodo3 .rec-arrow-right:focus {
+  background: white;
+  color: #936957;
+}
+.our-news {
+  color: #936957;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Metropolis";
+  margin-left: 20px;
+  padding-top: 77px;
+  margin-bottom: 3rem !important;
+}
+.our-practices {
+  color: #000;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: "Metropolis";
+  margin-left: 20px;
+  padding-top: 77px;
+  margin-bottom: 3rem !important;
+}
+.our-practice {
+  color: #000;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Metropolis";
+  margin-left: 20px;
+  margin-bottom: 3rem !important;
+}
+.slide2-back {
+  background-color: yellow;
+}
+.service-border {
+  border-top: 1px solid #969494;
+  border-bottom: 1px solid #969494;
+  border-left: 1px solid #969494;
+  border-right: 1px solid #969494;
+  /* width: 100%; */
+  height: 150px;
+  border-radius: 5px;
+  background-color: #fff;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #efefef 50%, #fff 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+.service-border:hover {
+  background-position: 0 100%;
+}
+.service-border-mobileV {
+  border-top: 1px solid #969494;
+  border-bottom: 1px solid #969494;
+  border-left: 1px solid #969494;
+  border-right: 1px solid #969494;
+  /* width: 100%; */
+  height: 150px;
+  border-radius: 5px;
+  background-color: #fff;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #efefef 50%, #fff 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+.cairo_test {
+  width: 100%;
+  height: 86vh;
+}
+.cairo_test_MV {
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+  object-position: left;
+}
+.service-border-mobileV:hover {
+  background-position: 0 100%;
+}
+.our-news-container {
+  margin-bottom: 150px;
+  position: relative;
+}
+.circle {
+  border: 1px solid #b3acac;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Metropolis";
+}
+.circle-full {
+  border: 1px solid #b3acac;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Metropolis";
+  background-color: #936957;
+  color: #fff;
+  line-height: 41px;
+}
+.service-border-text {
+  color: #936957;
+  font-size: 16px;
+  font-family: "Metropolis";
+}
+.service-border-description {
+  color: #000;
+  font-size: 12px;
+  font-family: "Metropolis";
+}
+/* .service-border-img {
+  width: 450px;
+  height: 323px;
+} */
+.service-border-img {
+  width: 469px;
+  height: 348px;
+  /* object-fit: contain; */
+}
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+.our-team-members {
+  color: #fff;
+  font-size: 33px;
+  font-family: "Metropolis";
+  padding-top: 34px;
+  padding-bottom: 34px;
+  /* justify-content: flex-end !important; */
+  font-weight: bold;
+}
+.our-team-bk {
+  background-color: #313033;
+  width: "100%";
+  height: 660px;
+  border: 1px solid #707070;
+}
+.break {
+  margin-bottom: 10rem !important;
+}
+.gallery-content {
+  justify-content: flex-end !important;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+.img-pos {
+  position: absolute !important;
+}
+@media only screen and (max-width: 2560px) {
+  .service-border-img {
+    width: 829px;
+    height: 545px;
+    object-fit: cover;
+  }
+  .break {
+    margin-bottom: 22rem !important;
+  }
+  #dodo3 .rec-arrow-right {
+    position: absolute;
+    top: 35%;
+    right: 94%;
+    background: white;
+    color: #936957;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .service-border-img {
+    width: 629px;
+    height: 545px;
+    object-fit: cover;
+  }
+  .break {
+    margin-bottom: 22rem !important;
+  }
+  #dodo3 .rec-arrow-right {
+    position: absolute;
+    top: 35%;
+    right: 92%;
+    background: white;
+    color: #936957;
+  }
+  /* .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/finalCairo.jpg");
+    background-position: center center;
+    height: 931px !important;
+    min-width: 100%;
+  } */
+  .Cairo_background {
+    background-size: 100% 100%;
+    background-image: url("./../../assets/images/finalCairo.jpg");
+    background-position: center center;
+    height: 929px !important;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (max-width: 1620px) {
+  .service-border-img {
+    width: 469px;
+    height: 348px;
+    /* object-fit: contain; */
+  }
+  .break {
+    margin-bottom: 9.5rem !important;
+  }
+  .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/finalCairo.jpg");
+    background-position: center center;
+    height: 520px !important;
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 1303px) {
+  .home-headline {
+    width: 50%;
+  }
+  .home-headline-description {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .service-border-img {
+    /* width: 326px; */
+    height: 270px;
+    padding-bottom: 10px;
+  }
+  .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/maskCairo.png");
+    background-position: center center;
+    height: 630px !important;
+    min-width: 100%;
+  }
+  .break {
+    margin-bottom: 4rem !important;
+  }
+}
+@media only screen and (max-width: 944px) {
+  .home-headline {
+    width: 60%;
+    font-size: 32px;
+  }
+  .break {
+    margin-bottom: 3rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .our-team-members {
+    justify-content: flex-start !important;
+  }
+  #dodo .rec-arrow-right {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    background: white;
+    color: #936957;
+  }
+  #dodo .rec-arrow-left {
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    background: white;
+    color: #936957;
+  }
+  .home-headline {
+    width: 63%;
+    font-size: 28px;
+  }
+  #dodo3 .rec-arrow-right {
+    position: absolute;
+    top: 35%;
+    right: 85.5%;
+    background: white;
+    color: #936957;
+  }
+  #dodo3 .rec-arrow-left {
+    position: absolute;
+    top: 35%;
+    right: 92%;
+    background: white;
+    color: #936957;
+    z-index: 1;
+  }
+  .home-headline-description {
+    width: 70%;
+  }
+  .our-news {
+    padding-top: 20px;
+  }
+  .our-practices {
+    padding-top: 20px;
+  }
+  .padding-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .our-team-bk {
+    background-color: #313033;
+    width: "100%";
+    height: auto;
+    border: 1px solid #707070;
+  }
+  .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/maskCairo.png");
+    background-position: center center;
+    height: 596px !important;
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .home-headline {
+    width: 70%;
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 531px) {
+  .home-headline {
+    width: 83%;
+  }
+  .gallery-content {
+    justify-content: flex-start !important;
+  }
+  .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/maskCairo.png");
+    background-position: center center;
+    height: 245px !important;
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 447px) {
+  .home-headline {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #dodo3 .rec-arrow-right {
+    position: absolute;
+    top: 35%;
+    right: 0.5%;
+    background: white;
+    color: #936957;
+  }
+  #dodo3 .rec-arrow-left {
+    position: absolute;
+    top: 35%;
+    right: 88%;
+    background: white;
+    color: #936957;
+    z-index: 1;
+  }
+  .service-border-img {
+    /* width: 402px; */
+    width: 100%;
+    height: 270px;
+    padding-bottom: 10px;
+  }
+  .home-headline {
+    width: 70%;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .Cairo_background {
+    background-size: cover;
+    background-position: 100% 100% !important;
+    height: auto;
+    min-width: 100%;
+  }
+  .service-border {
+    height: 187px;
+  }
+  .service-border-mobileV {
+    height: 72px;
+  }
+
+  .home-headline-description {
+    width: 74%;
+    font-size: 12px;
+    margin-top: 11px;
+  }
+  .our-news {
+    color: #936957;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Metropolis";
+    margin-left: 11px;
+    margin-bottom: 0.5rem !important;
+    margin-top: 30px;
+  }
+  .our-practices {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Metropolis";
+    margin-left: 11px;
+    margin-bottom: 0.5rem !important;
+    margin-top: 30px;
+  }
+  #dodo .rec-arrow-left {
+    right: 20.5vw !important;
+  }
+  .animated-home {
+    animation-name: fadeInLeft;
+  }
+  .circle {
+    font-size: 1em;
+    border: 1px solid #b3acac;
+    border-radius: 50%;
+    font-family: "Metropolis";
+    /* border: none; */
+    padding: 7px;
+    width: 22px;
+    height: 25px;
+    min-width: 25px;
+    line-height: 12px;
+  }
+  .circle-full {
+    border: 1px solid #b3acac;
+    font-size: 1em;
+    border-radius: 50%;
+    font-family: "Metropolis";
+    /* border: none; */
+    padding: 7px;
+    width: 22px;
+    height: 25px;
+    min-width: 25px;
+    line-height: 10.7px;
+    background-color: #936957;
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 409px) {
+  .home-headline {
+    font-size: 15px;
+  }
+  .home-headline-description {
+    font-size: 12px;
+  }
+  .service-border-img {
+    /* width: 354px; */
+    width: 100%;
+    height: 270px;
+    padding-bottom: 10px;
+  }
+  #dodo3 .rec-arrow-left {
+    position: absolute;
+    top: 35%;
+    right: 86%;
+    background: white;
+    color: #936957;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .Cairo_background {
+    background-size: cover;
+    background-image: url("./../../assets/images/maskCairo.png");
+    background-position: 100% 100%;
+    height: 233px !important;
+    min-width: 100%;
+  }
+  .service-border-img {
+    /* width: 298px; */
+    width: 100%;
+    height: 270px;
+    padding-bottom: 10px;
+  }
+  #dodo3 .rec-arrow-left {
+    position: absolute;
+    top: 35%;
+    right: 84%;
+    background: white;
+    color: #936957;
+    z-index: 1;
+  }
+}

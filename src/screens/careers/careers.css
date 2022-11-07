@@ -1,0 +1,28 @@
+#careers {
+  background-image: url("../../assets/images/background_line.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#careers .title {
+  font-weight: bold;
+  font-size: 38px;
+  color: black;
+  font-family: "Metropolis";
+}
+#careers .subheader {
+  color: #936957;
+  font-size: 20px;
+  font-family: "Metropolis";
+  margin-bottom: 25px;
+}
+#careers .paragraph {
+  /* font-size: 21px; */
+  color: black;
+  padding-block-start: 10px;
+  font-family: "Metropolis";
+}
+@media only screen and (max-width: 1920px) {
+  #careers {
+    height: 700px;
+  }
+}

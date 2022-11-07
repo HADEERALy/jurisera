@@ -1,0 +1,110 @@
+.slider-style {
+  /* height: 270px; */
+  width: 90%;
+  /* background-color: #683bb7; */
+  color: #fff;
+  margin-left: 15px;
+  font-size: 4em;
+}
+.qoute-style {
+  width: 30px;
+  height: 30px;
+  margin-left: 275px;
+}
+.slider-name {
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+  font-family: "Metropolis";
+  margin-left: 317px;
+}
+.slider-margin {
+  /* margin-left: 45px; */
+  padding-left: 317px;
+}
+.slider-descr1 {
+  font-size: 18px;
+  color: #936957;
+  font-family: "Metropolis";
+  width: 100%;
+}
+.slider-descr2 {
+  font-size: 18px;
+  font-family: "Metropolis";
+  color: #3b3b3b;
+}
+@media only screen and (max-width: 1024px) {
+  .qoute-style {
+    width: 20px;
+    height: 20px;
+    margin-left: 213px;
+  }
+  .slider-name {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Metropolis";
+    margin-left: 45px;
+    margin-left: 255px;
+  }
+  .slider-margin {
+    padding-left: 253px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .qoute-style {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .slider-name {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Metropolis";
+    margin-left: 45px;
+    margin-left: 0px;
+  }
+  .slider-margin {
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .qoute-style {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .slider-name {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Metropolis";
+    margin-left: 45px;
+    margin-left: 0px;
+  }
+  .slider-margin {
+    padding-left: 0px !important;
+  }
+  .slider-descr1 {
+    font-size: 12px;
+    color: #936957;
+    font-family: "Metropolis";
+    width: 90%;
+  }
+  .slider-descr2 {
+    font-size: 12px;
+    font-family: "Metropolis";
+    color: #3b3b3b;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .slider-descr2 {
+    font-size: 12px;
+    font-family: "Metropolis";
+    color: #3b3b3b;
+  }
+  .slider-descr1 {
+    width: 100%;
+  }
+}

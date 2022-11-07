@@ -1,0 +1,41 @@
+#article {
+  background-image: url("../../assets/images/background_line.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subheader {
+  color: #936957;
+  font-size: 30px;
+  font-family: "Metropolis";
+  font-weight: 600;
+}
+.paragraph {
+  /* font-size: 21px; */
+  color: black;
+  padding-block-start: 10px;
+  font-family: "Metropolis";
+}
+.date {
+  font-family: "Metropolis";
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: start;
+  color: gray;
+}
+.name-bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.break-w {
+  word-break: break-all;
+}
+@media only screen and (max-width: 425px) {
+  .subheader {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .subheader {
+    font-size: 20px;
+  }
+}

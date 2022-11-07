@@ -1,0 +1,11 @@
+.sports-title {
+  color: #936957;
+  font-size: 30px;
+  font-family: "Metropolis";
+}
+.sports-position-description {
+  color: #000;
+  font-size: 12px;
+  font-family: "Metropolis";
+  margin-left: 5px;
+}

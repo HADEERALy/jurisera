@@ -1,0 +1,60 @@
+.contact-btn {
+  background-color: #936957;
+  border: none;
+  color: white;
+  width: 97%;
+  height: 37px;
+  font-family: "Metropolis";
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 2px;
+  font-family: "Metropolis";
+  /* margin-top: 20px; */
+}
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+  font-family: "Metropolis";
+}
+.form-control {
+  border: 1px solid #936957;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+.testt:focus {
+  border: 1px solid #936957;
+}
+.find-us-title {
+  font-size: 22px;
+  color: #936957;
+  font-family: "Metropolis";
+  font-weight: bold;
+}
+.address-style {
+  font-size: 14px;
+  font-family: "Metropolis";
+  text-decoration: underline;
+  cursor: pointer;
+  color: #000;
+}
+.map-size {
+  width: 90%;
+  height: 100%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .contact-btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .address-style {
+    font-size: 12px;
+  }
+  .map-size {
+    width: 100%;
+    height: 100%;
+  }
+}

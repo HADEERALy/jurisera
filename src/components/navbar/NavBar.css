@@ -1,0 +1,36 @@
+.navBackground {
+  background-color: white;
+}
+.nav-title {
+  font-size: 19px;
+  color: #0e0e0e;
+  font-family: "Metropolis";
+  text-align: center;
+}
+.nav-title-drop {
+  font-size: 19px;
+  color: #0e0e0e;
+  font-family: "Metropolis";
+  text-align: center;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.nav-sub-title {
+  font-size: 12px;
+  color: #0e0e0e;
+  font-family: "Metropolis";
+}
+@media only screen and (max-width: 991px) {
+  .nav-sub-title {
+    font-size: 12px;
+    color: #0e0e0e;
+    font-family: "Metropolis";
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .nav-title {
+    font-size: 16px;
+  }
+}

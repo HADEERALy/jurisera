@@ -1,0 +1,32 @@
+.client-title {
+  color: #000000;
+  font-size: 18px;
+  font-family: "Metropolis";
+  font-weight: bold;
+}
+.client-position {
+  color: #936957;
+  font-size: 14px;
+  font-family: "Metropolis";
+}
+.client-position-description {
+  color: #000;
+  font-size: 14px;
+  font-family: "Metropolis";
+  margin-left: 5px;
+}
+.client-qoute {
+  color: #936957;
+  font-size: 14px;
+  font-family: "Metropolis";
+  margin-left: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .underline-border {
+    border: 0.5px solid #c2c4c5;
+    margin-bottom: 10px;
+  }
+  .image-space {
+    margin-top: 30px;
+  }
+}

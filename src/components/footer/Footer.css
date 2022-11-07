@@ -1,0 +1,54 @@
+.footer-second-card {
+  background-color: #a19e9e;
+}
+.footer-first-card {
+  background-color: #936957;
+}
+.anchor-style {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 7px;
+  font-family: "Metropolis";
+}
+.anchor-style:hover {
+  font-size: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 7px;
+  font-family: "Metropolis";
+}
+.clickable {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+.number-color {
+  font-size: 16px;
+  color: white;
+  font-family: "Metropolis";
+}
+.fb-size {
+  font-size: 30px;
+}
+.fb-icon {
+  font-size: 16px;
+  color: #ffffff;
+  /* margin-left: 6px; */
+}
+.linkedin-icon {
+  font-size: 19px;
+  color: #ffffff;
+  /* margin-left: 6px; */
+}
+@media only screen and (max-width: 425px) {
+  .number-color {
+    font-size: 12px;
+    color: white;
+    font-family: "Metropolis";
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.client-title-profile {
+  color: #000000;
+  font-size: 24px;
+  font-family: "Metropolis";
+  font-weight: bold;
+}
+.client-position-profile {
+  color: #936957;
+  font-size: 16px;
+  font-family: "Metropolis";
+}
+.img-position {
+  object-fit: contain;
+}

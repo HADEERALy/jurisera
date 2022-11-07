@@ -1,0 +1,56 @@
+.background-test {
+  background-color: green;
+}
+.service-title {
+  color: #000;
+  font-weight: bold;
+  font-family: "Metropolis";
+  font-size: 16px;
+}
+.service-description {
+  color: #bbbdbe;
+  /* font-weight: bold; */
+  font-family: "Metropolis";
+  font-size: 14px;
+  text-align: center;
+  width: 478px !important;
+}
+.img-resize {
+  width: 439px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .service-description {
+    font-size: 12px;
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service-description {
+    font-size: 12px;
+    width: 408px !important;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .img-resize {
+    width: 339px;
+    height: 190px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .service-description {
+    font-size: 12px;
+    width: 293px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .img-resize {
+    width: 268px;
+    height: 176px;
+  }
+  .service-description {
+    font-size: 12px;
+    width: 255px !important;
+  }
+}
